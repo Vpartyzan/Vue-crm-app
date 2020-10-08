@@ -105,7 +105,7 @@ export default {
     amount: { minValue: minValue(1) },
     description: { required }
   },
-  async mounted () {
+  async mounted() {
     this.categories = await this.$store.dispatch('fetchCategories')
     this.loading = false
 
@@ -120,7 +120,7 @@ export default {
   },
   computed: {
     ...mapGetters(['info']),
-    canCreateRecord () {
+    canCreateRecord() {
       if (this.type === 'income') {
         return true
       }
@@ -129,7 +129,7 @@ export default {
     }
   },
   methods: {
-    async handleSubmit () {
+    async handleSubmit() {
       if (this.$v.$invalid) {
         this.$v.$touch()
       }
@@ -158,7 +158,7 @@ export default {
       }
     }
   },
-  destroyed () {
+  destroyed() {
     if (this.select && this.select.destroy) {
       this.select.destroy()
     }

@@ -30,7 +30,7 @@ export default {
     loading: true,
     updateCount: 0
   }),
-  async mounted () {
+  async mounted() {
     this.categories = await this.$store.dispatch('fetchCategories')
     this.loading = false
   },
