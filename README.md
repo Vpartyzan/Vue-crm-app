@@ -1,6 +1,9 @@
 # vue-crm
 https://vue-crm-vp.firebaseapp.com/
 
+email: test@test.com
+password: 123456
+
 ## Project setup
 ```
 npm install
