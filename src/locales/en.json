@@ -8,6 +8,8 @@
   "Menu_Planning": "Planning",
   "Menu_NewRecord": "New Record",
   "Menu_Categories": "Categories",
+  "Detail_Title": "Detail",
+  "Login": "Login",
   "No_Categories": "There are no categories yet.",
   "Create": "Create",
   "Title": "Title",
@@ -40,9 +42,10 @@
   "History": "History",
   "Record_With": "Record with",
   "Not_Found": "not found",
-  "Currency_Account": "Currency account",
-  "Exchange_Rates": "Exchange rates",
+  "Currency_Account": "Bill in currencies",
+  "Exchange_Rates": "Currencies rates",
   "Currency": "Currency",
   "Course": "Course",
-  "Exit": "Exit"
+  "Exit": "Exit",
+  "Register": "Register"
 }

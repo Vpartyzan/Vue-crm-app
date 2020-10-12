@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="page-title">
-      <h3>{{ "NewEntry" | localize }}</h3>
+      <h3>{{ "Menu_NewRecord" | localize }}</h3>
     </div>
 
     <Loader v-if="loading" />
@@ -93,6 +93,11 @@ import { mapGetters } from 'vuex'
 
 export default {
   name: 'Record',
+  metaInfo() {
+    return {
+      title: this.$title('Menu_NewRecord')
+    }
+  },
   data: () => ({
     loading: true,
     select: null,

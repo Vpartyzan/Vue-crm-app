@@ -8,6 +8,8 @@
   "Menu_Planning": "Планирование",
   "Menu_NewRecord": "Новая запись",
   "Menu_Categories": "Категории",
+  "Detail_Title": "Детали",
+  "Login": "Логин",
   "No_Categories": "Категории пока нет.",
   "Create": "Создать",
   "Title": "Название",
@@ -44,5 +46,6 @@
   "Exchange_Rates": "Курс валют",
   "Currency": "Валюта",
   "Course": "Курс",
-  "Exit": "Выйти"
+  "Exit": "Выйти",
+  "Register": "Регистрация"
 }
